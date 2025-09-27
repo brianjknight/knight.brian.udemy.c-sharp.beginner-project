@@ -11,10 +11,10 @@ namespace C_BeginnerProject
         // Main method starting point 
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your favorite color?");
-            Console.ReadLine();
-            Console.WriteLine("Me too!");
-            Console.WriteLine();
+            //Console.WriteLine("What is your favorite color?");
+            //Console.ReadLine();
+            //Console.WriteLine("Me too!");
+            //Console.WriteLine();
 
             // numbers
             int i = 1;
@@ -33,6 +33,15 @@ namespace C_BeginnerProject
             // Boolean
             bool isBool = true;
 
+            int one = 1;
+            int two = 2;
+            int three = 3;
+
+            int sum = one + two + three;
+            int product = two * two * three;
+            int quotient = product / 3;
+            int mod = product % 5;
+            Console.WriteLine(sum + " | " + product + " | " + quotient + " | " + mod + " | ");
         }
     }
 }
