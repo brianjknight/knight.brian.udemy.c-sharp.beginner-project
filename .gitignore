@@ -1,0 +1,55 @@
+###########################
+# General Build Results
+###########################
+
+# Binaries and intermediate build files (must be at project level and solution level)
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+
+# Compiled files
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+
+# Log files
+*.log
+*.trx
+
+###########################
+# IDE and Local User Files
+###########################
+
+# Visual Studio's solution user options (local settings)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio's main cache folder (2015/2017/2019/2022)
+.vs/
+
+# JetBrains Rider IDE files
+.idea/
+
+# VS Code IDE files (often optional, but good practice for team)
+.vscode/
+
+###########################
+# Package Management (NuGet)
+###########################
+
+# NuGet packages (the folder where packages are downloaded)
+# Note: For modern .NET SDK projects, this is less common but still useful to exclude.
+packages/
+
+# Package files
+*.nupkg
+*.snupkg
+
+# Temporary files used by NuGet restore
+project.lock.json
+project.fragment.lock.json
