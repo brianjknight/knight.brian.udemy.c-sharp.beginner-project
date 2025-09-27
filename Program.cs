@@ -29,10 +29,11 @@ namespace C_BeginnerProject
             // variable type inference
             var v = "var";
             var var = 1;
-            
+
             // Boolean
             bool isBool = true;
 
+            // Arithmetic operators
             int one = 1;
             int two = 2;
             int three = 3;
@@ -41,7 +42,38 @@ namespace C_BeginnerProject
             int product = two * two * three;
             int quotient = product / 3;
             int mod = product % 5;
+
             Console.WriteLine(sum + " | " + product + " | " + quotient + " | " + mod + " | ");
+
+            int age = 100;
+
+            if (age >= 18)
+            {
+                Console.WriteLine("legal adult");
+            }
+            else if (age < 2)
+            {
+                Console.WriteLine("infant");
+            }
+            else
+            {
+                Console.WriteLine("minor");
+            }
+
+            switch (age) 
+            {
+                case 1:
+                case 2: // C# does not allow multiple case values on same line
+                    Console.WriteLine("infant");
+                    break;
+                //case 2, 4: // C# does not allow multiple case values on same line
+                case 18:
+                    Console.WriteLine("18 years old");
+                    break;
+                default:
+                    Console.WriteLine("other");
+                    break;
+            }
         }
     }
 }
