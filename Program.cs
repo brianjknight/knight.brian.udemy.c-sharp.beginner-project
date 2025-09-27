@@ -30,6 +30,9 @@ namespace C_BeginnerProject
             var v = "var";
             var var = 1;
             
+            // Boolean
+            bool isBool = true;
+
         }
     }
 }
